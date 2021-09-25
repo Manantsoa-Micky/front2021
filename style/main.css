@@ -97,6 +97,7 @@
 
 .middle {
   height: 75%;
+  display: flex;
 }
 
 .img-1 {
@@ -107,9 +108,11 @@
 }
 
 .img-1:hover {
-  height: 90%;
-  width: 90%;
-	margin-left: 2em;
+
 	box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.823);
+  transition: 1s;
 }
 
+.img-2{
+  margin-left: 0%;
+}
