@@ -1,3 +1,4 @@
+
 .container1{
     position: absolute;
     top: 50%;
@@ -39,9 +40,11 @@
     }
 }
 
-.slide1{
-    z-index: 2;
-    background-color: black;
+#slide1{
+    /* display: none; */
+    z-index: 5;
+    background-image: url('../images/header007.jpg');
+    /* background-color: rgb(197, 197, 197); */
     position: absolute;
     width: 100%;
     height: 100%;
@@ -50,8 +53,8 @@
     transform: translate(-50%,-50%);
     -webkit-animation-name: slide;
     -webkit-animation-duration: .5s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-delay: 1.5s;
+    /* -webkit-animation-iteration-count: 1; */
+    -webkit-animation-delay: 2s;
 }
 
 @-webkit-keyframes slide {
@@ -65,5 +68,8 @@
 
 .clear{
     display: none;
-    /* opacity: 0; */
+}
+
+.container1 > p:nth-child(1){
+    font-size: 5rem;
 }

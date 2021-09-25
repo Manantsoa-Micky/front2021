@@ -1,0 +1,6 @@
+{
+  "homepage": "https://ave-rage.github.io/mock/",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
