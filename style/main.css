@@ -7,6 +7,7 @@
 .main {
   display: flex;
 }
+
 @media only screen and (max-width: 800px) {
   .main {
     display: grid;
@@ -22,7 +23,7 @@
 .left {
   display: grid;
   place-items: center;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
 }
 
@@ -52,4 +53,35 @@
 
 .title p:nth-child(2) {
   font-size: 34px;
+}
+
+
+
+.right {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.top{
+    height: 25%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.top >p {
+    margin: 1rem;
+    color: white;
+}
+
+.middle{
+    height: 75%;
+}
+
+.img{
+    height: 90%;
+    width: 90%;
 }
