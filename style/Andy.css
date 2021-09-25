@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    scroll-behavior: smooth;
+    font-family: Dancing Script;
+}
+img{
+    display: block;
+    width: 50%;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+   color: #52a7ff;
+}
+#header{
+    height: 100vh;
+    background:url(../images/header01.jpg) center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    /* filter: brightness(0.3); */
+}
+
+#fotsy{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    height: 50px;
+    width: 1px;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+
+#scroll{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.banner{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(21, 191, 21);
+}
+.banner-title{
+    font-size: 3rem;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 17px;
+    /* z-index: 2; */
+}
+
+.banner p{
+    padding: 1rem 0 2rem 0;
+    font-size: 1rem;
+    font-weight: 100;
+    text-transform: capitalize;
+
+}
+#the{
+    letter-spacing: 25px;
+    font-weight: 100;
+    line-height: 0.5;
+    font-size: 15rem;
+
+}
+a{
+ text-decoration: none;
+ color: white;
+ font-weight: 100;
+}
