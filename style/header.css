@@ -42,7 +42,7 @@
 
 #slide1{
     /* display: none; */
-    z-index: 5;
+    z-index: 2;
     background-image: url('../images/header007.jpg');
     /* background-color: rgb(197, 197, 197); */
     position: absolute;
@@ -52,9 +52,9 @@
     left: 50%;
     transform: translate(-50%,-50%);
     -webkit-animation-name: slide;
-    -webkit-animation-duration: .5s;
+    -webkit-animation-duration: 2s;
     /* -webkit-animation-iteration-count: 1; */
-    -webkit-animation-delay: 2s;
+    -webkit-animation-delay: 1s;
 }
 
 @-webkit-keyframes slide {
