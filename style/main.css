@@ -9,7 +9,6 @@
 
 .main {
   display: flex;
-  /* background-color: rgb(241, 255, 250); */
   color: black;
   font-size: large;
 }
@@ -29,10 +28,7 @@
 .left {
   display: grid;
   place-items: center;
-  /* background-color: rgb(0, 0, 0); */
-  /* color: white; */
 }
-
 .video {
   display: block;
   width: 100%;
@@ -76,7 +72,6 @@
 }
 
 .right {
-  /* background-color: black; */
   display: flex;
   flex-direction: column;
 }
@@ -84,7 +79,6 @@
 .top {
   height: 25%;
   width: 100%;
-  /* background-color: rgb(255, 255, 255); */
   display: flex;
   align-items: center;
   justify-content: start;
@@ -93,7 +87,6 @@
 .top > p {
   font-size: 1em;
   margin: 2em;
-  /* color: white; */
 }
 
 .middle {
@@ -122,6 +115,4 @@
   display: block;
   height: 100vh;
   width: 100vw;
-  /* background-repeat: no-repeat; */
-  /* filter: blur(); */
 }
