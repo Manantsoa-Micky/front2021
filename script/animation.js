@@ -10,11 +10,11 @@ window.addEventListener('load',function(e){
 
     const handleIntersect=function(entries,observer){
         entries.forEach(function(entry){
-            if(entry.intersectionRatio < ratio){
+            if(entry.intersectionRatio <= ratio){
                 entry.target.classList.add('clear')
-            }//if
+            }
         });
-    }//handle
+    }
     
     const observer = new IntersectionObserver(handleIntersect,options);
     document.querySelectorAll('.slide1').forEach(function(r){

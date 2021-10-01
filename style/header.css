@@ -1,3 +1,4 @@
+
 .container1{
     position: absolute;
     top: 50%;
@@ -13,7 +14,7 @@
     left: 50%;
     width: 200px;
     height: 5px;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0.248);
 }
 
 .fullbar{
@@ -49,9 +50,9 @@
     left: 50%;
     transform: translate(-50%,-50%);
     -webkit-animation-name: slide;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: 1;
-    -webkit-animation-delay: 3s;
+    -webkit-animation-delay: 2s;
 }
 
 @-webkit-keyframes slide {
@@ -65,4 +66,8 @@
 
 .clear{
     display: none;
+}
+
+.container1 > p:nth-child(1){
+    font-size: 5rem;
 }
