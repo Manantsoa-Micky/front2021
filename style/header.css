@@ -12,7 +12,7 @@
     transform: translate(00%,00%);
     left: 50%;
     width: 200px;
-    height: 2px;
+    height: 5px;
     background-color: rgba(255, 255, 255, 0.25);
 }
 
@@ -22,10 +22,10 @@
     left: 50%;
     transform: translate(-50%,-50%);
     width: 100%;
-    height: 2px;
-    background-color: rgba(255, 255, 255, 0.50);
+    height: 5px;
+    background-color: rgb(255, 255, 255);
     -webkit-animation-name: extend;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: 1;
 }
 
@@ -39,9 +39,9 @@
     }
 }
 
-.slide1{
+#slide1{
     z-index: 2;
-    background-color: black;
+    background-image: url('../images/header007.jpg');
     position: absolute;
     width: 100%;
     height: 100%;
@@ -49,9 +49,9 @@
     left: 50%;
     transform: translate(-50%,-50%);
     -webkit-animation-name: slide;
-    -webkit-animation-duration: .5s;
+    -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: 1;
-    -webkit-animation-delay: 1.5s;
+    -webkit-animation-delay: 3s;
 }
 
 @-webkit-keyframes slide {
@@ -65,5 +65,4 @@
 
 .clear{
     display: none;
-    /* opacity: 0; */
 }
